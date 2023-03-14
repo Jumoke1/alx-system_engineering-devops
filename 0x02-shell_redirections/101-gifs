@@ -1,0 +1,3 @@
+root@5e8f4019e8ab:/alx-system_engineering-devops/0x02-shell_redirections# cat > 100-empty_casks
+#!/bin/bash
+find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
