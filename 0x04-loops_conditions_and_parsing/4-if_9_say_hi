@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # This script demonstrates printing "Best School" using a while loop and an if statement together
 
-counter=1
+counter=0
 
-while [ $counter -le 10 ]
+while [ $counter -lt 10 ]
 do
     echo "Best School"
 
