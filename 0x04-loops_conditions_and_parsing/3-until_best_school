@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script print Best school using an until loop
+
+count=0  # Initialize a counter variable
+
+until [ $count -gt 5 ]
+ do
+    echo "Best School"
+    ((count++))  # Increment the counter variable
+done
