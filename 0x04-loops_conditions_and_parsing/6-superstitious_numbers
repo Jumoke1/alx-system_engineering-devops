@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# This script demonstrates printing messages based on user input using a while loop and a case statement
+
+counter=0
+
+while [ $counter -le 20 ]; do
+    echo "Please select an option:"
+    echo "1. Option 4"
+    echo "2. Option 9"
+    echo "3. Option 17"
+    echo "4. Quit"
+
+    read choice
+
+    case $choice in
+        1)
+            if [ $counter -eq 4 ]; then
+                echo "bad luck from China"
+            fi
+            ;;
+        2)
+            if [ $counter -eq 9 ]; then
+                echo "bad luck from Japan"
+            fi
+            ;;
+        3)
+            if [ $counter -eq 17 ]; then
+                echo "bad luck from Italy"
+            fi
+            ;;
+        4)
+            echo "Goodbye!"
+            break
+            ;;
+        *)
+            echo "Invalid choice. Please select a valid option (1-4)."
+            ;;
+    esac
+
+    ((counter++))
+done
+
