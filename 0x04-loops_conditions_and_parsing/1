@@ -5,6 +5,6 @@ BestSchool=0  # Initialize the counter variable
 
 while [ $BestSchool -le 9 ]
 do
-    echo "Best School"
-    (( BestSchool++ ))  # Increment the counter variable
+    echo "Best School $BestSchool"
+    ((BestSchool++))  # Increment the counter variable
 done
