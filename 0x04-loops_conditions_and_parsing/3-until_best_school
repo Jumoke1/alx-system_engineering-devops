@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# displaying best school 10 times using unitll
+
+i=0
+
+until [ $i -eq 10 ];
+do
+  echo "Best School"
+  (( i++ ))
+done
