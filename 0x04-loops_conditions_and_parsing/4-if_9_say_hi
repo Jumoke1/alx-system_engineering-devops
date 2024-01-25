@@ -9,6 +9,6 @@ do
   then
     echo "Hi"
   fi
-  mecho "Best School"
+  echo "Best School"
   (( i++ ))
 done
