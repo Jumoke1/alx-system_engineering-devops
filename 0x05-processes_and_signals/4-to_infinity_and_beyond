@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# A bash script that displays to infinity and beyond
+
+while true
+
+do
+  echo " To infinityand beyond"
+
+  sleep 2
+
+done
