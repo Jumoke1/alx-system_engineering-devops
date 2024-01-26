@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #a bash script to retrive a currently runing  procees
 
-echo ps -aux -forest
+echo ps -auxf
