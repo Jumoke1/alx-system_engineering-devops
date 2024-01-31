@@ -1,2 +1,9 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/hbt+n/).join
+
+# Check if a command-line argument is provided
+if ARGV[0].nil?
+  puts "Please provide a string as a command-line argument."
+else
+  # Use the scan method only if a command-line argument is provided
+  puts ARGV[0].scan(/hbt+n/).join
+end
