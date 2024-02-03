@@ -2,4 +2,4 @@
 # Display listening sockets with PID and program name
 
 
-netstat -l --program
+netstat -anb
