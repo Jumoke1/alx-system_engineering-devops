@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # ping an IP address pass  as an argument 5 times
 
 if [ $# -eq 0 ]
