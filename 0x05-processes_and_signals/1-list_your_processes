@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # a bash script that currently displays running process
 
 echo ps
 echo pstree
+=======
+#a bash script to retrive a currently runing  procees
+
+echo ps -auxf
+>>>>>>> 148c929a543ec61f52cedb772821d4584ab85a71
