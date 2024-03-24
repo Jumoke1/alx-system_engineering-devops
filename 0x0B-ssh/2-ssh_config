@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# client configuration file
+Host severjums
+    HostName 54.237.17.98
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+
