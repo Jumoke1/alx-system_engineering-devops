@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#install and configure HAProxy
+# Install and configure HAProxy
 apt-get update
 apt-get install -y haproxy
 
@@ -36,6 +36,11 @@ frontend http-in
 
 backend servers
     balance roundrobin
+
     server web-01 54.237.17.98 check
     server web-02 18.233.67.169 check
 EOF
+
+sed -i 's/ENABLED=0/ENABLED=1/' /etc/default/haproxy
+
+service haproxy restart
