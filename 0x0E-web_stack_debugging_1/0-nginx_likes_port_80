@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# debug the nginx server to listen to port 80
+
+rm /etc/nginx/sites-enabled-default/default
+sudo ln -fs /etc/nginx/sites-available/defatult /etc/nginx/sites-enabled/default
+sudo service nginx restart
