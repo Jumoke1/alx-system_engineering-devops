@@ -36,8 +36,8 @@ frontend http-in
 
 backend servers
     balance roundrobin
-    server web-01 STUDENT_ID-web-01:80 check
-    server web-02 STUDENT_ID-web-02:80 check
+    server web-01 54.237.17.98 check
+    server web-02 18.233.67.169 check
 EOF
 
 sed -i 's/ENABLED=0/ENABLED=1/' /etc/default/haproxy
