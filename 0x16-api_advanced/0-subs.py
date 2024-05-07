@@ -6,7 +6,7 @@ A function that queries reddit apito get the number of total subscirbers
 import requests
 
 
-def number_of_subscribers(subreddit)
+def number_of_subscribers(subreddit):
     """  return number of subscribers given """
 
     #making a request in the subreddit 
