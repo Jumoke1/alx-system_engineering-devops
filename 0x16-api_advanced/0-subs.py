@@ -2,7 +2,6 @@
 """
 A function that queries reddit apito get the number of total subscirbers
 """
-
 import requests
 
 
